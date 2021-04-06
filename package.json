@@ -1,0 +1,10 @@
+{
+  "name": "esmify",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}

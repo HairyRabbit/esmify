@@ -1,0 +1,35 @@
+{
+  "name": "@expert-elm/react-dom",
+  "version": "VERSION",
+  "license": "MIT",
+  "description": "An actively maintained ESM build of React-DOM, a package for working with the DOM.",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "homepage": "https://reactjs.org/",
+  "bugs": {
+    "url": "https://github.com/facebook/react/issues"
+  },
+  "dependencies": {
+    "@expert-elm/scheduler": "^0.20.3"
+  },
+  "peerDependencies": {
+    "@expert-elm/react": "^17.0.0"
+  },
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/react.git",
+    "directory": "packages/react"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

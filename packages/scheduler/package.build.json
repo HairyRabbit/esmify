@@ -1,0 +1,33 @@
+{
+  "name": "@expert-elm/scheduler",
+  "version": "VERSION",
+  "license": "MIT",
+  "description": "An actively maintained ESM build of scheduler",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "homepage": "https://reactjs.org/",
+  "bugs": {
+    "url": "https://github.com/facebook/react/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@expert-elm/react": "^17.0.0"
+  },
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/react.git",
+    "directory": "packages/react"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

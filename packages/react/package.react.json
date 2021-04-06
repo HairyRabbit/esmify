@@ -1,0 +1,27 @@
+{
+  "name": "@expert-elm",
+  "version": "VERSION",
+  "license": "MIT",
+  "description": "An actively maintained ESM build of React, the JavaScript library for building user interfaces.",
+  "main": "react.js",
+  "module": "react.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./react.js"
+    }
+  },
+  "homepage": "https://reactjs.org/",
+  "bugs": {
+    "url": "https://github.com/facebook/react/issues"
+  },
+  "dependencies": {},
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/react.git",
+    "directory": "packages/react"
+  }
+}
