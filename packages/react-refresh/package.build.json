@@ -1,0 +1,29 @@
+{
+  "name": "@expert-elm/react-refresh",
+  "version": "VERSION",
+  "license": "MIT",
+  "description": "An actively maintained ESM build of react-refresh",
+  "main": "runtime.js",
+  "module": "runtime.js",
+  "exports": {
+    ".": {
+      "import": "./runtime.js"
+    }
+  },
+  "homepage": "https://reactjs.org/",
+  "bugs": {
+    "url": "https://github.com/facebook/react/issues"
+  },
+  "dependencies": {},
+  "keywords": [
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/react.git",
+    "directory": "packages/react-refresh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
